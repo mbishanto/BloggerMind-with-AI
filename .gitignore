@@ -1,0 +1,30 @@
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project
+config.php
+
+# Logs
+*.log
+error_log
+
+# Temp
+temp/
+
+# Uploaded content
+uploads/avatars/*
+uploads/banners/*
+uploads/posts/*
+uploads/media/*
+!uploads/avatars/.gitkeep
+!uploads/banners/.gitkeep
+!uploads/posts/.gitkeep
+!uploads/media/.gitkeep

@@ -1,18 +1,18 @@
 # Screenshots
 
-This page documents where each screenshot should be placed and what it demonstrates.
+This page documents the available screenshots, what each one shows, and where to place them.
 
 ---
 
-## Screenshot List
+## Available Screenshots
 
 ### Homepage
 
 ![Homepage](images/homepage.png)
 
-**Placement:** README overview section, docs overview page, case study introduction.
+The community feed with infinite scroll pagination. Sidebar widgets display top authors, trending posts, most liked content, and latest news headlines. Navigation includes site logo, category menu, tools dropdown, and authentication links.
 
-**What it shows:** The community feed with infinite scroll pagination. The sidebar displays widget sections for top authors, trending posts, most liked content, and latest news headlines. The top navigation includes the site logo, category menu, tools dropdown, and authentication links. The category filter and search bar sit above the feed.
+**Placement:** README overview, docs overview, case study introduction.
 
 ---
 
@@ -20,9 +20,9 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![Login](images/login.png)
 
-**Placement:** README features section (authentication), docs authentication section.
+The login form with email and password fields. After password verification, the user enters a 6-digit OTP sent to their email. Rate limiting is active (10 attempts per 10 minutes per IP).
 
-**What it shows:** The login form with email and password fields. After successful password check, the user is redirected to a second page where they enter a 6-digit OTP sent to their email. Rate limiting is active on this page (10 attempts per 10 minutes per IP).
+**Placement:** README authentication features, docs security section.
 
 ---
 
@@ -30,9 +30,9 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![Dashboard](images/dashboard.png)
 
-**Placement:** README features section (content management), docs features page.
+The user dashboard listing posts with title, status, category, and date columns. Filter controls, create/edit/delete actions, and pagination.
 
-**What it shows:** The user dashboard listing their posts with title, status, category, and date columns. Filter controls for post status. Buttons to create a new post, edit existing posts, or delete them. Pagination controls.
+**Placement:** README content management features, docs features page.
 
 ---
 
@@ -40,19 +40,9 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![Profile](images/profile.png)
 
-**Placement:** README features section (profile), docs features page.
+Ajax-driven profile editing: username with live availability check, display name, bio, password change, and avatar upload with preview and removal.
 
-**What it shows:** The Ajax-driven profile editing interface. Fields for username (with live availability check), display name, bio, and password change. Avatar upload with preview and removal option.
-
----
-
-### Editor
-
-![Editor](images/editor.png)
-
-**Placement:** README features section (content management), docs features page.
-
-**What it shows:** The TinyMCE rich text editor with its formatting toolbar. Below the editor, fields for title, image URL, category selection (or creation), and post status (published or hidden). The edit form also includes a "reason for changes" field.
+**Placement:** README profile features, docs features page.
 
 ---
 
@@ -60,9 +50,9 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![Mobile](images/mobile.png)
 
-**Placement:** README responsive design section, docs overview.
+Responsive mobile layout of the homepage. Single-column feed, collapsed sidebar, touch-friendly navigation with hamburger menu.
 
-**What it shows:** The responsive mobile layout of the homepage. The sidebar widgets are hidden (accessible through navigation). The feed adapts to single-column layout. Touch-friendly navigation with hamburger menu.
+**Placement:** README responsive section, docs overview.
 
 ---
 
@@ -70,9 +60,9 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![AI Assistant](images/ai-assistant.png)
 
-**Placement:** README features section (AI integration), docs features page, case study.
+AI Assistant chat interface with mode selector (Chat, SEO Writer, Code Fixer, Tool Guide). Message history, input field, status indicator, and hint pills for example prompts.
 
-**What it shows:** The AI Assistant chat interface. Mode selector (Chat, SEO Writer, Code Fixer, Tool Guide). Chat message history display with user and AI messages styled differently. Input field with send button. Status indicator showing "Ready" or "Thinking". Hint pills for example prompts.
+**Placement:** README AI features, docs features page, case study.
 
 ---
 
@@ -80,21 +70,20 @@ This page documents where each screenshot should be placed and what it demonstra
 
 ![cPanel](images/cpanel.png)
 
-**Placement:** README folder structure section, docs installation page, case study.
+Project file structure as seen in cPanel File Manager, showing the directory layout.
 
-**What it shows:** The project's file structure as seen in cPanel File Manager, showing the directory organization: `admin/`, `api/`, `assets/`, `forum/`, `lib/`, `note/`, `partials/`, `support-bloggermind/`, `temp/`, `tinymce/`, `tools/`, `uploads/`.
+**Placement:** README folder structure, docs deployment, case study.
 
 ---
 
-## File Name Reference
+## File Reference
 
-| Screenshot | File Name |
+| Screenshot | File Path |
 |---|---|
 | Homepage | `docs/images/homepage.png` |
 | Login Page | `docs/images/login.png` |
 | Dashboard | `docs/images/dashboard.png` |
 | Profile Editor | `docs/images/profile.png` |
-| Editor | `docs/images/editor.png` |
 | Mobile View | `docs/images/mobile.png` |
 | AI Assistant | `docs/images/ai-assistant.png` |
 | cPanel File Structure | `docs/images/cpanel.png` |
